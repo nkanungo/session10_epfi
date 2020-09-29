@@ -9,7 +9,7 @@ import operator
 from functools import reduce
 
 fake = Faker()
-n_times = 10
+n_times = 5
 fake_prof_tup = namedtuple('fake_prof_tup',' '.join (fake.profile().keys()))
 
 #time function
